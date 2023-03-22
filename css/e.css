@@ -1,0 +1,504 @@
+/* navbar */
+header {
+  /* position: fixed;
+  z-index: 999;
+  width: 100%; */
+}
+
+nav {
+  background-color: rgba(255, 40, 40, 0.911);
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-img-title:hover {
+  cursor: pointer;
+}
+
+.nav-car-img {
+  width: 4.5rem;
+}
+
+.nav-car-title {
+  text-decoration: none;
+  font-size: 3rem;
+  font-style: oblique;
+  color: black;
+  font: bold;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2.3rem;
+}
+
+.nav-left:link,
+.nav-left:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.nav-left:hover,
+.nav-left:active {
+  color: rgb(0, 183, 255);
+}
+
+/* Section profile */
+.profile-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-a:link,
+.profile-a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  width: 100%;
+  border: 1px solid gray;
+  text-align: center;
+  background-color: rgb(253, 233, 196);
+  color: black;
+  padding: 1rem 0;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-a:hover,
+.profile-a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.div-a:link,
+.div-a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem 0;
+  transition: all 0.3s;
+}
+
+.div-a:hover,
+.div-a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.profile-div {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(253, 233, 196);
+  color: black;
+  padding: 1rem 0;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter {
+  display: flex;
+  gap: 1rem;
+}
+
+.inside {
+  padding: 0 1rem;
+}
+
+.profile-drop {
+  width: 30%;
+  font-family: sans-serif;
+  border: 2px solid rgb(97, 97, 97);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.profile-icon {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem;
+  border-radius: 100%;
+  border: 1px solid silver;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.profile-icon:hover {
+  color: red;
+}
+
+.profile-emer {
+  margin-left: 0.3rem;
+  background-color: red;
+  border-radius: 100%;
+  padding: 0 0.6rem 0.1rem 0.6rem;
+  font-size: 1.6rem;
+  display: none;
+}
+
+.profile-in {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  background-color: white;
+  color: black;
+  border: 2px solid silver;
+  transition: all 0.3s;
+  font-size: 1.3rem !important;
+}
+
+.profile-in:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* mail part */
+.section-full {
+  min-height: calc(100vh - 13.6rem);
+}
+
+.mail-main {
+  padding: 2rem 0rem 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 243, 225);
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.change {
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+/* Contact Part */
+.contact-grid {
+  grid-template-columns: 1fr 1fr;
+  /* padding-bottom: 4.5rem; */
+  padding: 6rem 0rem;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem 0rem;
+  /* position: relative; */
+}
+
+.contact-left-top {
+  padding-left: 4rem;
+  position: relative;
+}
+
+.con-title {
+  padding-top: 0;
+  text-align: left;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  font-style: normal;
+}
+
+.contact-span {
+  font-weight: normal;
+}
+
+.contact-title-p {
+  font-size: 1.7rem;
+}
+
+.contact-float {
+  position: absolute;
+  font-size: 1.8rem;
+  color: #f4c613;
+  top: 1rem;
+  left: -4.8rem;
+  transform: rotate(270deg);
+}
+
+/* .contact-middle{
+} */
+
+.con-mid-pad {
+  padding: 0.5rem 0;
+}
+
+.con-mid-tit {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.con-mid-p {
+  font-size: 1.6rem;
+}
+
+.con-mid-p a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: fit-content;
+  gap: 0.3rem;
+}
+
+.con-mid-p a:hover {
+  text-decoration: underline;
+  color: #f4c613;
+}
+
+.contact-icon {
+  width: 3rem;
+  height: 3rem;
+  padding-top: 0.5rem;
+}
+
+.contact-a {
+  transition: all 0.3s;
+  color: black;
+}
+
+.contact-a:hover {
+  color: #f4c613;
+}
+
+.contact-send {
+  padding: 2rem 0rem;
+}
+
+.contact-right {
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 1.5rem;
+  width: 60%;
+  box-shadow: 0px 2px 10px 0px rgb(206, 195, 195);
+}
+
+.send-title {
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 1px solid #dbb211;
+  padding-bottom: 1.5rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  padding: 1rem 1.5rem;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  resize: none;
+}
+
+.pdf {
+  border: none;
+  padding: 0;
+}
+
+*:focus {
+  outline: 2px solid #ffe16acb;
+}
+
+.upload {
+  width: 100px;
+  position: relative;
+  margin: auto;
+}
+
+.upload img {
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+}
+
+.upload .round {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #00b4ff;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload .round input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.camera {
+  padding-top: 0.3rem;
+  margin: 0;
+  width: 27px;
+  height: 27px;
+  stroke: white;
+}
+
+.contact-btn {
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 0;
+  border-radius: 5px;
+  background-color: #f4c613;
+  color: #ffffff;
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  transition: all 0.3s;
+}
+
+.contact-btn:hover {
+  border: 1px solid #f4c613;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #222;
+}
+
+.fill {
+  color: red;
+  border: 1px solid red;
+  padding: 1rem 1.5rem;
+  font-size: 1.7rem;
+  text-align: center;
+  display: none;
+}
+
+.patient {
+  font-size: 2rem;
+}
+
+/* mail show part */
+.mail-show {
+  border: 5px solid rgb(173, 173, 173);
+  /* min-height: calc(100vh - 90rem); */
+  height: 69.45rem;
+  overflow: auto;
+  background-color: rgb(224, 220, 212);
+  padding: 2rem;
+}
+
+.eme-title {
+  background-color: rgb(127, 208, 255);
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.mail-design {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mail-show-sub {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+}
+
+.sub-span {
+  color: rgb(0, 60, 255);
+  font-weight: normal;
+}
+
+.blood {
+  color: red;
+}
+
+.pdf-down {
+  padding: 1rem;
+  background-color: rgb(0, 184, 0);
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px 10px;
+  font-size: 1.6rem;
+}
+
+.time {
+  font-size: 1.4rem;
+  text-align: end;
+  color: rgb(104, 104, 104);
+}
+
+.del-lable{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: black;
+}
+
+.delete-input{
+  font-size: 1.4rem;
+  padding: 1rem;
+  background-color: #ced4da;
+}
+
+.emg-btn {
+  background-color: red;
+  color: white;
+  transition: all 0.3s;
+}
+
+.emg-btn:hover {
+  cursor: pointer;
+  background-color: rgb(202, 1, 1);
+}
+
+.delete{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.ban{
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+}

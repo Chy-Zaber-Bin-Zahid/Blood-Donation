@@ -1,0 +1,238 @@
+/* navbar */
+header {
+  /* position: fixed;
+  z-index: 999; */
+  /* width: 100%; */
+}
+
+nav {
+  background-color: rgba(255, 40, 40, 0.911);
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-img-title:hover {
+  cursor: pointer;
+}
+
+.nav-car-img {
+  width: 4.5rem;
+}
+
+.nav-car-title {
+  text-decoration: none;
+  font-size: 3rem;
+  font-style: oblique;
+  color: black;
+  font: bold;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2.3rem;
+}
+
+.nav-left:link,
+.nav-left:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.nav-left:hover,
+.nav-left:active {
+  color: rgb(0, 183, 255);
+}
+
+/* Section profile */
+.profile-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-a:link,
+.profile-a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  width: 100%;
+  border: 1px solid gray;
+  text-align: center;
+  background-color: rgb(253, 233, 196);
+  color: black;
+  padding: 1rem 0;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-a:hover,
+.profile-a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.div-a:link,
+.div-a:visited{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem 0;
+  transition: all 0.3s;
+}
+
+.div-a:hover,
+.div-a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.profile-div {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(253, 233, 196);
+  color: black;
+  padding: 1rem 0;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter{
+  display: flex;
+  gap: 1rem;
+}
+
+.inside{
+  padding: 0 1rem;
+}
+
+.profile-drop {
+  width: 30%;
+  font-family: sans-serif;
+  border: 2px solid rgb(97, 97, 97);
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.profile-icon {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem;
+  border-radius: 100%;
+  border: 1px solid silver;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.profile-icon:hover {
+  color: red;
+}
+
+.profile-emer{
+  margin-left: .3rem;
+  background-color: red;
+  border-radius: 100%;
+  padding: .13rem .6rem .1rem .65rem;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.profile-in{
+  border: none;
+  border-radius: 5px;
+  padding: .5rem .7rem;
+  background-color: white;
+  color: black;
+  border: 2px solid silver;
+  transition: all .3s;
+}
+
+.profile-in:hover{
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* ban part */
+.section-ban{
+  min-height: calc(100vh - 17.5rem);
+  padding: 2rem;
+}
+
+.user-show{
+  border: 2px solid silver;
+  overflow: auto;
+}
+
+.user-title{
+background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  padding: .2rem 1rem .2rem 1rem;
+  font-size: 1.8rem;
+}
+
+.user-p{
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: .2rem 1rem .2rem 1rem;
+  font-size: 1.6rem;
+}
+
+.ban-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ban-form{
+  border: 2px solid silver;
+  background-color: azure;
+  width: 70%;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.ban-form input{
+  padding: .5rem;
+  margin: .5rem .5rem 0rem 0rem;
+  border-radius: 0;
+  border: 1px solid silver;
+}
+
+.ban-btn{
+  font-size: 1.4rem;
+  background-color: red;
+  color: white;
+  transition: all .3s;
+}
+
+.ban-btn:hover {
+  cursor: pointer;
+  background-color: rgb(175, 0, 0);
+}
+
+.unban{
+  background-color: limegreen;
+}
+
+.unban:hover {
+  background-color: rgb(43, 173, 43);
+}
