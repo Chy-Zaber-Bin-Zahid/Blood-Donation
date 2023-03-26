@@ -1,0 +1,143 @@
+/* Bello 700px (Smaller desktops) */
+@media (max-width: 700px) {
+  .nav-car-img {
+    width: 4rem;
+  }
+
+  .nav-car-title {
+    font-size: 2.6rem;
+  }
+
+  .nav-left-box {
+    font-size: 2.1rem;
+  }
+
+  .text-center {
+    font-size: 2.6rem;
+  }
+
+  #name,
+  #password {
+    height: 2rem;
+    font-size: 1.4rem;
+  }
+
+  #submit {
+    font-size: 1.2rem;
+  }
+
+  .dont-have {
+    font-size: 1.4rem;
+  }
+}
+
+/* Bello 520px (Smaller desktops) */
+@media (max-width: 520px) {
+  .nav-car-img {
+    width: 3.6rem;
+  }
+
+  .nav-car-title {
+    font-size: 2.4rem;
+  }
+
+  .nav-left-box {
+    font-size: 2rem;
+  }
+
+  .text-center {
+    font-size: 2.4rem;
+  }
+
+  #name,
+  #password {
+    height: 1.8rem;
+    font-size: 1.4rem;
+  }
+
+  #submit {
+    font-size: 1.2rem;
+  }
+
+  .dont-have {
+    font-size: 1.4rem;
+  }
+}
+
+/* Bello 455px (Smaller desktops) */
+@media (max-width: 455px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-car-img {
+    width: 3.4rem;
+  }
+
+  .nav-car-title {
+    font-size: 2.2rem;
+  }
+
+  .nav-left-box {
+    font-size: 1.8rem;
+  }
+
+  .text-center {
+    font-size: 2.2rem;
+  }
+
+  #name,
+  #password {
+    height: 1.8rem;
+    font-size: 1.3rem;
+  }
+
+  #submit {
+    font-size: 1.2rem;
+  }
+
+  .dont-have {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* Bello 335px (Smaller desktops) */
+@media (max-width: 335px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-car-img {
+    width: 3.2rem;
+  }
+
+  .nav-car-title {
+    font-size: 2.2rem;
+  }
+
+  .nav-left-box {
+    font-size: 1.8rem;
+  }
+
+  .text-center {
+    font-size: 2rem;
+  }
+
+  #name,
+  #password {
+    height: 1.5rem;
+    font-size: 1.3rem;
+    padding: .5rem;
+  }
+
+  #submit {
+    font-size: 1.1rem;
+  }
+
+  .dont-have {
+    font-size: 1.3rem;
+  }
+}

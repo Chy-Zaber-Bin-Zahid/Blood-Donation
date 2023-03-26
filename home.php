@@ -8,6 +8,7 @@
   <!-- css link -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/homeblood.css">
+  <link rel="stylesheet" href="media/homeq.css">
   <title>Blood House BD | Blood For Everyone</title>
 </head>
 <body>
