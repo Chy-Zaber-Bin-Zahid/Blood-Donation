@@ -8,6 +8,7 @@
   <!-- css link -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dashu.css">
+  <link rel="stylesheet" href="media/dashuq.css">
   <title>Blood House BD | Blood For Everyone</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
   <!-- profile, search section -->
   <section class="profile-section">
     <a class="profile-a" href="profile.php">Profile</a>
-    <div class="profile-div inside">
+    <div class="profile-div inside top-e">
     <a class="div-a" href="emergency.php">Emergency Blood Needed</a>
     <?php 
     require_once('DBconnect.php');
@@ -45,14 +46,14 @@
 }
     ?>
     </div>
-    <a class="profile-a" href="look.php">Look For Blood</a>
+    <a class="profile-a top" href="look.php">Look For Blood</a>
     <?php
     if ($email == "admin47@gmail.com"){?>
       <a class="profile-a" href="user.php">Users</a>
       <?php
     }
     ?>
-    <form action="dashboardUser.php" method="post" class="profile-div filter">
+    <form action="dashboardUser.php" method="post" class="profile-div filter top">
       <select class="profile-drop" id="cars" name="group">
           <option name="from" value="All">All</option>
           <option name="from" value="O+">O+</option>
