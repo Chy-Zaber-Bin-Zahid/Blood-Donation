@@ -214,16 +214,24 @@ nav {
   border-radius: 5px;
   font-size: 1.4rem;
   cursor: pointer;
+  width: 90%;
+}
+
+.edit h1{
+  margin-bottom: .3rem;
 }
 
 .gen-text{
   font-size: 1.6rem;
+
 }
 
 .edit-div-btn{
+  margin-top: .3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-column-end: span 2;
 }
 
 .edit-btn{
@@ -234,6 +242,7 @@ nav {
   color: white;
   transition: all .3s;
   border: 2px solid rgb(255, 255, 255);
+  
 }
 .edit-btn:hover{
   cursor: pointer;

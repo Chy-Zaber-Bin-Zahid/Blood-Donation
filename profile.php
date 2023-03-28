@@ -7,7 +7,8 @@
 
   <!-- css link -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/pf.css">
+  <link rel="stylesheet" href="css/pfc.css">
+  <link rel="stylesheet" href="media/profileq.css">
   <title>Blood House BD | Blood For Everyone</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
    <!-- profile, search section -->
    <section class="profile-section">
     <a class="profile-a" href="profile.php">Profile</a>
-    <div class="profile-div inside">
+    <div class="profile-div inside top-e">
     <a class="div-a" href="emergency.php">Emergency Blood Needed</a>
     <?php 
     require_once('DBconnect.php');
@@ -45,14 +46,14 @@
 }
     ?>
     </div>
-    <a class="profile-a" href="look.php">Look For Blood</a>
+    <a class="profile-a top" href="look.php">Look For Blood</a>
     <?php
     if ($email == "admin47@gmail.com"){?>
       <a class="profile-a" href="user.php">Users</a>
       <?php
     }
     ?>
-    <form action="dashboardUser.php" method="post" class="profile-div filter">
+    <form action="dashboardUser.php" method="post" class="profile-div filter top">
       <select class="profile-drop" id="cars" name="group">
           <option name="from" value="All">All</option>
           <option name="from" value="O+">O+</option>
@@ -108,20 +109,31 @@
               <?php }}?>
   </div>
   <form method="post" class="edit grid grid-col-2">
-          <h1>Your First Name</h1>
+    
+    
+          <div>
+            <h1>Your First Name</h1>
+            <input class="edit-input" required placeholder="Name" type="text" name="f_name"></input>
+          </div>
+
+          <div>
           <h1>Your Last Name</h1>
-
-          <input class="edit-input" required placeholder="Name" type="text" name="f_name"></input>
           <input class="edit-input" required placeholder="Name" type="text" name="l_name"></input>
-
-          <h1>Phone Number</h1>
-          <h1>Password</h1>
-
-          <input class="edit-input" required placeholder="Phone" type="number" name="phone"></input>
-          <input class="edit-input" required placeholder="Password" type="text" name="pass"></input>
+          </div>
           
+          <div>
+          <h1>Phone Number</h1>
+          <input class="edit-input" required placeholder="Phone" type="number" name="phone"></input>
+          </div>
+
+          <div>
+          <h1>Password</h1>
+          <input class="edit-input" required placeholder="Password" type="text" name="pass"></input>
+          </div>
+         
+
+          <div>
           <h1>Blood Group</h1>
-          <h1>Birth Date</h1>
           <select class="edit-input" id="cars" name="group">
                       <option name="from" value="O+">O+</option>
                       <option name="from" value="O-">O-</option>
@@ -132,14 +144,26 @@
                       <option name="from" value="AB+">AB+</option>
                       <option name="from" value="AB-">AB-</option>
           </select>
+          </div>
+         
+          <div>
+          <h1>Birth Date</h1>
           <input class="edit-input" required type="date" name="bd"></input>
-
+          </div>
+         
+          <div>
           <h1 class="status">Status</h1>
-
           <select class="edit-input"  id="cars" name="active">
             <option name="from" value="Available">Available</option>
             <option name="from" value="Unavailable">Unavailable</option>
           </select>
+          </div>
+    
+          
+
+        
+
+          
 
           <div>
           <h1>Gender</h1>
