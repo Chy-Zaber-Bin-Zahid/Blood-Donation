@@ -178,7 +178,8 @@ nav {
 }
 
 .shout-box {
-  width: 60%;
+  margin: 0 1rem;
+  max-width: 100rem;
   border: 5px solid silver;
   min-height: calc(100vh - 15.6rem);
   background-color: rgb(231, 231, 231);

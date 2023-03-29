@@ -71,18 +71,20 @@
 
   <!-- ban part -->
   <section class="section-ban grid grid-col-2">
-    <div class="user-show grid grid-col-3">
+    <div class="user-show grid grid-col-4">
       <h1 class="user-title">Id</h1>
       <h1 class="user-title">Name</h1>
       <h1 class="user-title">Email</h1>
+      <h1 class="user-title">Status</h1>
       <?php 
-      $sql_chat = "SELECT `id`,`f_name`,`l_name`,`email` from user order by id asc";
+      $sql_chat = "SELECT `id`,`f_name`,`l_name`,`email`,`status` from user order by id asc";
       $result_chat = mysqli_query($conn, $sql_chat);
       if(mysqli_num_rows($result_chat) != 0){
         while($row_chat = mysqli_fetch_assoc($result_chat) ){ ?>
         <p class="user-p"><?php echo $row_chat['id'];?></p>
         <p class="user-p"><?php echo $row_chat['f_name'], " " ,$row_chat['l_name'];?></p>
         <p class="user-p"><?php echo $row_chat['email'];?></p>
+        <p class="user-p"><?php echo $row_chat['status'];?></p>
         <?php
         }}
       ?>
