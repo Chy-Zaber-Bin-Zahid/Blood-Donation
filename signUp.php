@@ -7,7 +7,8 @@
 
   <!-- css link -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/signUP.css">
+  <link rel="stylesheet" href="css/signUp.css">
+  <link rel="stylesheet" href="media/signupq.css">
   <title>Blood House BD | Blood For Everyone</title>
 </head>
 <body>
